@@ -1,0 +1,47 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-variant: small-caps;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: lightgrey;
+}
+
+ul {
+  border: 10px solid black;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: lightgrey;
+  background-color: black;
+  line-height: 3;
+}
+
+#myBtn, #myBtnTwo, #myBtnThree {
+  width: 110px;
+  height: 40px;
+  font-family: "Raleway", sans-serif;
+  font-variant: small-caps;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#myBtn:hover, #myBtnTwo:hover, #myBtnThree:hover {
+  background-color: lightgrey;
+  -webkit-box-shadow: inset 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 0px 5px -1px rgba(0, 0, 0, 0.75);
+}
+
+img {
+  height: 432px;
+  width: 579px;
+}
+
+#bropic {
+  height: 432px;
+  width: 380px;
+}
+
+/*# sourceMappingURL=master.css.map */
